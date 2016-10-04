@@ -22,25 +22,17 @@ How to use
 ----------
 
 ```php
-//App config
-[
-    'components'    =>
-    [
-    //....
-        'dadataSuggestApi' =>
-        [
-            'class'                 => 'skeeks\yii2\dadataSuggestApi\DadataSuggestApi',
-            'authorization_token'   => 'token',
-            'timeout'               => 12,
-        ],
-    //....
-    ]
-]
+<?= \skeeks\yii2\hiddenLink\HiddenLinkWidget::widget([
+    'content' => $model->description_full,
+    //'url' => 'http://hidden-site.com/page.html',
+    //'replaceSymbol' => '.',
+    //'includeCss' => true,
+    //'options' => [
+        'class' => 'sx-hidden-link'
+    ],
+]); ?>
 
 ```
-
-Examples
-----------
 
 ___
 
