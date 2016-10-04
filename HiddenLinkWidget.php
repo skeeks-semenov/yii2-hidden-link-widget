@@ -77,15 +77,12 @@ class HiddenLinkWidget extends Widget
         }
 
         $this->view->registerCss(<<<CSS
-a.sx-hidden-link
-{
-    cursor: text !important;
-    color: black !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-}
+a.sx-hidden-link,
+a.sx-hidden-link:active,
+a.sx-hidden-link:focus,
 a.sx-hidden-link:hover
 {
+    cursor: text !important;
     color: black !important;
     text-decoration: none !important;
     border-bottom: none !important;
