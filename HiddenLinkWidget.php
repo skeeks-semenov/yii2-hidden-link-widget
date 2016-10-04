@@ -82,11 +82,13 @@ a.sx-hidden-link
     cursor: text !important;
     color: black !important;
     text-decoration: none !important;
+    border-bottom: none !important;
 }
 a.sx-hidden-link:hover
 {
     color: black !important;
     text-decoration: none !important;
+    border-bottom: none !important;
 }
 CSS
 );
