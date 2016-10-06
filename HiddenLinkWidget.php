@@ -29,7 +29,7 @@ class HiddenLinkWidget extends Widget
     /**
      * @var string
      */
-    public $replaceSymbol = '.';
+    public $replaceSymbol = ',';
 
     /**
      * @var bool
